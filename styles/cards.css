@@ -1,0 +1,71 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+main.cards {
+    display: flex;
+    padding: 40px;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #202324;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-left: 2vw;
+    cursor: pointer;
+    box-shadow: 20px 20px 50px -30px #000000;
+    max-width: 30vw;
+    max-height: 35vh;
+    min-width: 30vw;
+    min-height: 35vh;
+} main.cards section.card:hover {
+    background-color: #000000;
+    position: relative;
+    top: -1px;
+    transition: all 0.5s ease-in-out;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icons {
+    width: 65px;
+    height: 65px;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+main.cards section.card h3 {
+    padding: 4px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    main.cards {
+        flex-direction: column;
+        display: flex;
+        padding: 10px;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+        max-width: 100%;
+        max-height: 30vh;
+        min-width: 100%;
+        min-height: 30vh;
+    }
+
+    main.cards section.card span{
+        font-size: 15px;
+    }
+}
+

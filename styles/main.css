@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Poppins-Medium";
+    font-style: bold;
+    src: local('Poppins-Medium'), url('/fonts/Poppins-Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    font-style: normal;
+    src: local('Poppins-SemiBold'), url('/fonts/Poppins-SemiBold.ttf') format("truetype"); 
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    font-style: normal;
+    src: local('Roboto-Medium'), url('/fonts/Roboto-Medium.ttf') format("truetype"); 
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    font-style: bold;
+    src: local('Roboto-Bold'), url('/fonts/Roboto-Bold.ttf') format("truetype"); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins-SemiBold", "Roboto", Arial;
+    text-decoration: none;
+}
+
+body {
+    background-color: #2c2c2c;
+    overflow-x: hidden;
+}
