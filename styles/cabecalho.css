@@ -8,6 +8,28 @@ div.cabecalho {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    position: relative;
 }
 
+div.content div.cabecalho div.logo-cabecalho {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center
+}
+
+div.content div.cabecalho div.logo-cabecalho h2 {
+    color: #ffffff;
+    font-size: 10vw;
+    margin-top: 10vh;
+}
+
+@media screen and (max-width:1300px) {
+    div.cabecalho {
+        height: 30vh;
+    }
+
+    div.content div.cabecalho div.logo-cabecalho {
+        height: 30vh;
+    }
+}

@@ -1,0 +1,7 @@
+Aqui ficaram todas as musicas do site.
+
+example:
+
+audios/fernandinho/
+audios/fernandinho/nomedamusica.
+...

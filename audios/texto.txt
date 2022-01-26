@@ -1,0 +1,9 @@
+Aqui ficaram todos os arquivos de audio do site.
+
+example:
+
+audios/genesis
+audios/genesis/1/
+audios/genesis/1/audio.flac
+...
+

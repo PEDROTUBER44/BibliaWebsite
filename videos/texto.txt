@@ -1,0 +1,6 @@
+Aqui ficaram os arquivos de video.
+
+example:
+videos/midinho/
+videos/midinho/historia/
+...
