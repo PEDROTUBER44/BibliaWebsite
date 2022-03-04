@@ -79,6 +79,12 @@ a {
     padding-top: 8vh;
 }
 
+@media screen and (max-width: 500px) {
+    header nav div.logo div#text {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .navlist {
         position: absolute;
