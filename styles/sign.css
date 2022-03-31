@@ -1,27 +1,26 @@
 body {
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-main .container {
-    display: inline-block;
+main div.container {
+    margin-top: 20vh;
 }
 
-main form {
-    border-top: 10vh;
-    display: grid;
+main div.container form {
+    display: flexbox;
     place-items: center;
     width: 50vh;
     height: 50vh;
     transition: 0.3s;
-    background-color: #212425;
-    border-radius: 10px;
-    box-shadow: 20px 20px 30px -15px #000000;
+    border-radius: 15px;
 }
 
 main form div.sign-in-icon {
     display: grid;
     place-items: center;
+    margin-bottom: 10px;
 }
 
 main form div.sign-in-icon div.img {
@@ -34,19 +33,17 @@ main form div.sign-in-icon div.img img#user {
     height: 100%;
 }
 
-main form #text-sign-in {
+main div.container form div.sign-in-icon div.text h1#text-sign-in {
     color: #ffffff;
 }
 
-main form div.input {
-    display: grid;
-    place-items: center;
+main div.container form div.input {
     width: 100%;
-    height: 5vh;
-    transition: 0.3s;
+    height: 45px;
+    margin-bottom: 10px;
 }
 
-main form div.input input {
+main div.container form div.input input#floatinginput.form-input {
     width: 100%;
     height: 100%;
     border: 0;
@@ -58,11 +55,41 @@ main form div.input input {
     color: #ffffff;
 }
 
+main div.container form div.botoes {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+main div.container form div.botoes button {
+    width: 49%;
+    height: 100%;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(21, 31, 85, 0.898);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+main div.container form div.botoes button:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 500px) {
+
+    main {
+        width: 100%;
+    }
+
+    main div.container {
+        width: 100%;
+    }
+
+    main div.container form {
+        width: 100%;
+    }
 
 
-
-/*
-
-#212425
-
-*/
+}

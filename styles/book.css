@@ -1,0 +1,41 @@
+div.content div.books {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.content div.books div.book:first-child {
+    margin-top: 0;
+}
+
+div.content div.books div.book {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #0c0c0c;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+div.content div.books div.book div.nome {
+    display: inline-block;
+    width: 50%;
+
+}
+
+div.content div.books div.book div.dados {
+    display: inline-block;
+    width: 50%;
+
+}
+
+div.content div.books div.book div.nome h4 {
+    color: #ffffff;
+}
+
+div.content div.books div.book div.dados h4 {
+    color: #ffffff;
+}
