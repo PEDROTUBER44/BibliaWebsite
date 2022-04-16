@@ -24,6 +24,9 @@ main.cards section.card {
     max-height: 35vh;
     min-width: 30vw;
     min-height: 35vh;
+    border-left: 3px solid #4895ff;
+
+
 } main.cards section.card:hover {
     background-color: #000000;
     position: relative;
