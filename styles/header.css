@@ -10,7 +10,9 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 0, 0,0.9);
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     height: 8vh;
 }
 

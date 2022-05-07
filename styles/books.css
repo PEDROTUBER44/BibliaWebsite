@@ -1,0 +1,15 @@
+div.content div.verses h3.subtitle, div.content div.verses h4.verse {
+    color: #ffffff;
+}
+
+div.content div.verses h3.subtitle {
+    text-align: center;
+    font-size: x-large;
+}
+
+div.content div.verses, div.content div.verses .verse {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

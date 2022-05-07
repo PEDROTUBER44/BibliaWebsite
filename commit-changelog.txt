@@ -1,0 +1,4 @@
+Coisas que foram modificadas nesse commit:
+
+- A headerbar foi melhor estilizada
+- MetaTags adicionadas

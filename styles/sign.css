@@ -78,7 +78,6 @@ main div.container form div.botoes button:hover {
 }
 
 @media screen and (max-width: 500px) {
-
     main {
         width: 100%;
     }
@@ -90,6 +89,4 @@ main div.container form div.botoes button:hover {
     main div.container form {
         width: 100%;
     }
-
-
 }

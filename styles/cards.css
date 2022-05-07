@@ -14,21 +14,19 @@ main.cards section.card {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #202324;
+    background-color: #1a1a1a;
     padding: 1rem 1.5rem;
     border-radius: 8px;
     margin-left: 2vw;
     cursor: pointer;
-    box-shadow: 20px 20px 50px -30px #000000;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 80%);
     max-width: 30vw;
     max-height: 35vh;
     min-width: 30vw;
     min-height: 35vh;
     border-left: 3px solid #4895ff;
-
-
 } main.cards section.card:hover {
-    background-color: #000000;
+    background-color: #202020;
     position: relative;
     top: -1px;
     transition: all 0.5s ease-in-out;
