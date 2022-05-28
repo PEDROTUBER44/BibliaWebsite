@@ -1,6 +1,4 @@
 Coisas que foram modificadas nesse commit:
 
-- Reestruturado os arquivos do site
-- Corigindo bugs de design responsivo
-- Melhor identando o index-studywebbible.html(index-bibliawebdeestudo.html)
-- CSS limpo
+- Aumentado o tamanho da headerbottom e do footer
+- Mudando o local do footer nos arquivos .html
