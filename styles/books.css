@@ -1,15 +1,46 @@
-div.content div.verses h3.subtitle, div.content div.verses h4.verse {
+div.content div.row {
+    justify-content: center;
+    align-items: center;
+}
+
+div.content div.row div.book {
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 80%);
+    padding: 25px;
+    margin: 20px;
+    transition: all 0.4s ease-out;
     color: #ffffff;
+    background-color: #1a1a1a;
+    justify-content: space-around;
+    border-left: 3px solid #4895ff;
+} div.content div.row div.book:hover {
+    background-color: #202020;
+    position: relative;
+    top: -1px;
+    transition: all 0.5s ease-in-out;
 }
 
-div.content div.verses h3.subtitle {
-    text-align: center;
-    font-size: x-large;
+div.content div.testament {
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 80%);
+    padding: 25px;
+    width: 100%;
+    transition: all 0.4s ease-out;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    justify-content: space-around;
 }
 
-div.content div.verses, div.content div.verses .verse {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+div.content div.row div.book p {
+    font-size: 16px;
+    color: #a3a5ae;
+}
+
+@media screen and (max-width: 500px) {
+
+    div.content div.row div.book p {
+        font-size: 12px;
+        color: #a3a5ae;
+    }
+
 }

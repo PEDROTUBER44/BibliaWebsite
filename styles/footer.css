@@ -1,70 +1,57 @@
 footer {
-    height: 30vh;
     width: 100%;
+    height: 250px;
     text-align: center;
     background-color: #000000;
     position: relative;
     bottom: 0;
 }
 
-.textos-footer {
+#logo-footer {
+    align-items: center;
+    display: flex;
+}
+
+#logo-footer:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.texts-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #ffffff;
-    padding-top: 3vh;
+    padding-top: 20px;
 }
 
-.textos-footer h5 {
-    margin-top: 1vh;
-    margin-bottom: 1.5vh;
+.texts-footer h5 {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
-.titulo {
-    margin-bottom: 2vh;
+.title {
+    margin-bottom: 20px;
 }
 
-.tipos {
+.types {
     display: flex;
 }
 
-.tipos h4 {
+.types h4 {
     display: flex;
-    margin-left: 1vw;
-} .tipos h4:hover {
+    margin-left: 10px;
+}
+
+.types h4:hover {
     cursor: pointer;
     opacity: 0.7;
 }
 
-#logo-footer {
-    align-items: center;
-    display: flex;
-} #logo-footer:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
+@media screen and (max-width:500px) {
 
-#logo-footer img, #text-footer {
-    display: inline-block;
-}
-
-#sobre {
-    color: #ffffff;
-} #sobre:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
-
-@media screen and (max-width:500) {
-    .titulo {
-        margin-bottom: 1vh;
+    .title {
+        margin-bottom: 10px;
     }
 
-    texto3 {
-        font-size: 10px;
-    }
-
-    texto4 {
-        font-size: 8px;
-    }
 }

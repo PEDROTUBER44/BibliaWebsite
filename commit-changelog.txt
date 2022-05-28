@@ -1,3 +1,6 @@
 Coisas que foram modificadas nesse commit:
 
-- Corigido a cor da navlist
+- Reestruturado os arquivos do site
+- Corigindo bugs de design responsivo
+- Melhor identando o index-studywebbible.html(index-bibliawebdeestudo.html)
+- CSS limpo

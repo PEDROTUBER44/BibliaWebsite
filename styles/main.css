@@ -7,19 +7,19 @@
 @font-face {
     font-family: "Poppins-SemiBold";
     font-style: normal;
-    src: local('Poppins-SemiBold'), url('/fonts/Poppins-SemiBold.ttf') format("truetype"); 
+    src: local('Poppins-SemiBold'), url('/fonts/Poppins-SemiBold.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "Roboto-Medium";
     font-style: normal;
-    src: local('Roboto-Medium'), url('/fonts/Roboto-Medium.ttf') format("truetype"); 
+    src: local('Roboto-Medium'), url('/fonts/Roboto-Medium.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "Roboto-Bold";
     font-style: bold;
-    src: local('Roboto-Bold'), url('/fonts/Roboto-Bold.ttf') format("truetype"); 
+    src: local('Roboto-Bold'), url('/fonts/Roboto-Bold.ttf') format("truetype");
 }
 
 * {

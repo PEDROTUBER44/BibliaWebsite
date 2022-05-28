@@ -1,19 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icons/favicon.svg" type="svg">
-    <title>BíbliaWeb</title>
+    <title>BíbliaWeb Home</title>
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/cabecalho.css">
+    <link rel="stylesheet" href="styles/headerwithname.css">
     <link rel="stylesheet" href="styles/cards.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <meta name="description" content="Uma Bíblia Online em português com design responsivo para que você possa acessar de seu celular, tablet ou computador. Nesse site você poderá ouvir músicas cristãs, conversar com pessoas que compartilham da mesma fé que você, colocar vídeos educativos para as crianças e muito mais.">
     <meta name="keywords" content="biblia sagrada online cristã">
+    <meta name="description"
+        content="Uma Bíblia Online em português com design responsivo para que você possa acessar de seu smartphone, tablet ou computador. Nesse site você poderá ouvir músicas cristãs, conversar com pessoas que compartilham da mesma fé que você, colocar vídeos educativos para as crianças e muito mais.">
 </head>
+<style>
+    header {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        background-color: rgba(22, 22, 22, 0.7);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+    }
+
+    header nav div.logo {
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+    }
+
+    header nav div.logo:hover {
+        transition: 0.3s;
+        opacity: 0.7;
+    }
+
+    header nav div.logo img,
+    #text {
+        display: inline-block;
+    }
+
+    header nav div.logo #text {
+        color: #ffffff;
+    }
+
+    header nav .account {
+        align-items: center;
+        cursor: pointer;
+    }
+
+    header nav .account:hover {
+        transition: 0.3s;
+        opacity: 0.7;
+    }
+
+    header nav .account img {
+        margin-top: 7px;
+    }
+
+    .content {
+        padding-top: 50px;
+    }
+</style>
+
 <body>
 
     <header>
@@ -25,47 +82,38 @@
                 </div>
             </div>
 
-            <ul class="navlist">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="index-bibliawebdeestudo.html">Bíblia</a></li>
-                <li><a href="index-bibliawebkids.html">Bíblia Kids</a></li>
-                <li><a href="index-configuracoes.html">Configurações</a></li>
-            </ul>
-
-            <div class="mobilemenu">
-                <div id="line1"></div>
-                <div id="line2"></div>
-                <div id="line3"></div>
+            <div class="account" onclick="window.location.href='account.html'">
+                <img src="icons/user.svg" width="40vh" height="40vh" alt="Icone da Bíblia Web">
             </div>
         </nav>
     </header>
 
     <div class="content">
-        
-        <div class="cabecalho">
-            <div class="logo-cabecalho">
-                <h2>BíbliaWeb</h2>
-            </div>
+
+        <div class="headerwithname">
+            <h2>BíbliaWeb</h2>
         </div>
 
         <main class="cards">
-            <section class="card" onclick="window.location.href='index-bibliawebdeestudo.html'">
+            <section class="card" onclick="window.location.href='index-studywebbible.html'">
                 <div class="icons">
                     <img src="icons/favicon.svg" alt="Ícone da Bíblia Web">
                 </div>
                 <h3>BíbliaWeb</h3>
-                <span>Uma Bíblia para estudo com várias representações gráficas de como eram as coisas no tempo dos apóstolos além de conter a bíblia falada.</span>
+                <span>Uma Bíblia para estudo com várias representações gráficas de como eram as coisas no tempo dos
+                    apóstolos além de conter a bíblia falada.</span>
             </section>
 
-            <section class="card" onclick="window.location.href='index-bibliawebkids.html'">
+            <section class="card" onclick="window.location.href='index-kidswebbible.html'">
                 <div class="icons">
                     <img src="icons/favicon-kids.svg" alt="Ícone da Bíblia Web Kids">
                 </div>
                 <h3>BíbliaWeb Kids</h3>
-                <span>Uma Bíblia infantil com várias desenhos ilustrativos, vídeos educativos além de contar também com várias músicas infantis cristãs.</span>
+                <span>Uma Bíblia infantil com várias desenhos ilustrativos, vídeos educativos além de contar também com
+                    várias músicas infantis cristãs.</span>
             </section>
 
-            <section class="card" onclick="window.location.href='index-louvores.html'">
+            <section class="card" onclick="window.location.href='index-praises.html'">
                 <div class="icons">
                     <img src="icons/gnome-music-icon.svg" alt="Ícone de uma caixa de som">
                 </div>
@@ -75,7 +123,7 @@
         </main>
 
         <main class="cards">
-            <section class="card" onclick="window.location.href='index-radiosepodcasts.html'">
+            <section class="card" onclick="window.location.href='index-radiosandpodcasts.html'">
                 <div class="icons">
                     <img src="icons/haeckerfelix-shortwave-icon.svg" alt="Ícone de um rádio">
                 </div>
@@ -83,46 +131,48 @@
                 <span>Ouça rádios e podcasts cristãos, manualmente selecionados para você ouvir.</span>
             </section>
 
-            <section class="card" onclick="window.location.href='index-curiosidadesediscussoes.html'">
+            <section class="card" onclick="window.location.href='index-triviaanddiscussions.html'">
                 <div class="icons">
                     <img src="icons/empathy-icon.svg" alt="Ícone de um bate-papo">
                 </div>
                 <h3>Curiosidades e Discussões</h3>
-                <span>Leia curiosidades sobre a bíblia, converse com outras pessoas, leia ou escreva seus próprios testemunhos, e caso você queira faça um pedido de oração.</span>
+                <span>Leia curiosidades sobre a bíblia, converse com outras pessoas, leia ou escreva seus próprios
+                    testemunhos, e caso você queira faça um pedido de oração.</span>
             </section>
 
-            <section class="card" onclick="window.location.href='index-configuracoes.html'">
+            <section class="card" onclick="window.location.href='index-account.html'">
                 <div class="icons">
                     <img src="icons/gnome-settings-icon.svg" alt="Ícone de configurações">
                 </div>
                 <h3>Configurações do perfil</h3>
-                <span>Tema de cores do site, conquistas, nome de usuário, imagem do perfil, informações de contato...</span>
+                <span>Tema de cores do site, conquistas, nome de usuário, imagem do perfil, informações de
+                    contato...</span>
             </section>
         </main>
 
         <footer>
-            <div class="textos-footer">
+            <div class="texts-footer">
                 <div id="logo-footer" onclick="window.location.href='index.html'">
                     <img src="icons/favicon.svg" width="40vw" height="40vh" alt="Ícone da Bíblia Web">
                     <div id="text-footer">
                         <h2>BíbliaWeb</h2>
                     </div>
                 </div>
-                <h5>Uma bíblia criada com muito carinho por Pedro Rosendo e dirigida por Deus. Hospedado com github pages.</h5>
-                <div class="creditos">
-                    <div class="titulo">
-                        <h3 id="texto3">- Créditos -</h3>
+                <h5>Uma bíblia criada com muito carinho por Pedro Rosendo e dirigida por Deus. Hospedado com github
+                    pages.</h5>
+                <div class="credits">
+                    <div class="title">
+                        <h3 id="text3">- Créditos -</h3>
                     </div>
-                    <div class="tipos">
-                        <h4 id="texto4">Ícones</h4><h4 id="texto4">Imagens</h4 id="texto4"><h4 id="texto4">Músicas</h4>
+                    <div class="types">
+                        <h4 id="text4">Ícones</h4>
+                        <h4 id="texto4">Imagens</h4 id="texto4">
+                        <h4 id="texto4">Músicas</h4>
                     </div>
                 </div>
             </div>
         </footer>
     </div>
-    
 </body>
-
-<script src="scripts/mobilemenu.js"></script>
 
 </html>
