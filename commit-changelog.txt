@@ -1,4 +1,3 @@
 Coisas que foram modificadas nesse commit:
 
-- Adicionado o favicon da bíblia em head
-- Criado o primeiro capítulo do primeiro livro da bíblia
+- Função do botão de navegação do books/genesis/1.html adicionado
