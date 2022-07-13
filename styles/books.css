@@ -15,6 +15,7 @@ div.content div.row div.book {
     justify-content: space-around;
     border-left: 3px solid #4895ff;
 } div.content div.row div.book:hover {
+    cursor: pointer;
     background-color: #202020;
     position: relative;
     top: -1px;

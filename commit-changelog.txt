@@ -1,4 +1,4 @@
 Coisas que foram modificadas nesse commit:
 
-- Aumentado o tamanho da headerbottom e do footer
-- Mudando o local do footer nos arquivos .html
+- Adicionado o favicon da bíblia em head
+- Criado o primeiro capítulo do primeiro livro da bíblia
