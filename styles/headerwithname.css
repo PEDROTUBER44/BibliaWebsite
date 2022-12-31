@@ -3,7 +3,7 @@ div#content div#headerwithname {
     height: 400px;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/BoyUsingSmartphone.png);
+    background-image: url(../images/BoyUsingSmartphone.png);
     background-repeat: no-repeat;
     background-size: contain;
 }

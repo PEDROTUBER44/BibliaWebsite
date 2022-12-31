@@ -85,7 +85,7 @@ div#content div.container div#containercontent div#description div#button button
     div#content div.container {
         height: 400px;
         transition: 0.5s ease-in-out;
-        background-image: url(/images/AcessingWeb.png);
+        background-image: url(../images/AcessingWeb.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;

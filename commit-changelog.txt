@@ -1,3 +1,3 @@
 Coisas que foram modificadas nesse commit:
 
-- Mudando arquivos de .webp para .png
+- Corrigindo erro de "File Not Found" no css
