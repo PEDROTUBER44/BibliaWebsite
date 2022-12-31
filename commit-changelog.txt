@@ -1,3 +1,3 @@
 Coisas que foram modificadas nesse commit:
 
-- Criando mediaquerys para dispositivos menores
+- Mudando arquivos de .webp para .png
