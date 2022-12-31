@@ -1,3 +1,3 @@
 Coisas que foram modificadas nesse commit:
 
-- Reescrita do código e limpeza do site
+- Erro de "File Not Found" corrigido

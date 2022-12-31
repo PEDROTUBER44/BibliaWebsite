@@ -10,14 +10,12 @@ div#content div#headerwithname {
 
 div#content div#headerwithname div#texts {
     text-align: center;
-    
 }
 
 div#content div#headerwithname div#texts h2 {
     color: var(--primary-text-color-darkmode);
     font-size: 400%;
 }
-
 
 div#content div#headerwithname div#texts h4.line {
     border-right: 2px solid var(--secundary-text-color-darkmode);
@@ -27,7 +25,6 @@ div#content div#headerwithname div#texts h4.line {
     overflow: hidden;
     text-align: center;
 }
-
 
 .typing-animation {
     animation: blinkCursor 700ms infinite normal,

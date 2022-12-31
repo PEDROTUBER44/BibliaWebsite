@@ -5,6 +5,7 @@
     --secundary-text-color-darkmode: rgba(255, 255, 255, 0.75);
     --headertop-color-darkmode: rgba(17, 25, 40, 0.75);
     --headertop-bottom-color-darkmode: rgba(255, 255, 255, 0.125);
+    --button-color-darkmode: #02208d;
 }
 
 @font-face {
