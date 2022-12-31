@@ -1,3 +1,3 @@
 Coisas que foram modificadas nesse commit:
 
-- Corrigindo erro de "File Not Found" no css
+- Mudando de .png para .webp teste
