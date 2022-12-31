@@ -1,7 +1,7 @@
 div#content div.container {
     width: 100%;
     height: 350px;
-    background-color: black;
+    background-color: var(--secundary-background-color-darkmode);
 }
 
 div#content div.container div#containercontent {
@@ -42,14 +42,14 @@ div#content div.container div#containercontent div#description div#title h2 {
 div#content div.container div#containercontent div#description div#descriptiontext {
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 div#content div.container div#containercontent div#description div#descriptiontext h5 {
     color: var(--primary-text-color-darkmode);
     font-family: "Poppins-Medium", Arial;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 div#content div.container div#containercontent div#description div#button {
@@ -65,4 +65,71 @@ div#content div.container div#containercontent div#description div#button button
     border-radius: 100px;
     background-color: var(--button-color-darkmode);
     color: var(--primary-text-color-darkmode);
+}
+
+div#content div.container div#containercontent div#description div#button button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 40px var(--button-color-darkmode);
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+    div#content div.container div#containercontent div#description div#descriptioncontent div#descriptiontext h5 {
+        margin-left: 0px;
+        margin-right: 0px;
+        transition: 0.5s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    div#content div.container {
+        height: 400px;
+        transition: 0.5s ease-in-out;
+        background-image: url(/images/AcessingWeb.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        transition: 0.5s ease-in-out;
+    }
+
+    div#content div.container div#containercontent {
+        flex-direction: column;
+        transition: 0.5s ease-in-out;
+    }
+
+    div#content div.container div#containercontent div#image {
+        display: none;
+        transition: 0.5s ease-in-out;
+    }
+
+    div#content div.container div#containercontent div#description {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.616);
+        box-shadow: 0 8px 32px 0 rgba(31, 31, 31, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        transition: 0.5s ease-in-out;
+    }  
+
+    div#content div.container div#containercontent div#description div#descriptioncontent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: 0.5s ease-in-out;
+    }
+
+    div#content div.container div#containercontent div#description div#descriptioncontent div#descriptiontext h5 {
+        margin-left: 10px;
+        margin-right: 10px;
+        transition: 0.5s ease-in-out;
+    }
 }
