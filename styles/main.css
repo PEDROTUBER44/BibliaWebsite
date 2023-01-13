@@ -1,7 +1,7 @@
 :root {
     --primary-background-color-darkmode: #161616;
     --secundary-background-color-darkmode: #2e2e2e;
-    --backgroud-color-whitemode: #d5d5d5;
+    --primary-backgroud-color-whitemode: #d5d5d5;
     --primary-text-color-darkmode: #ffffff;
     --secundary-text-color-darkmode: rgba(255, 255, 255, 0.75);
     --headertop-color-darkmode: rgba(17, 25, 40, 0.75);

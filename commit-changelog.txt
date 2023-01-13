@@ -1,3 +1,7 @@
 Coisas que foram modificadas nesse commit:
 
-- Mudando de .png para .webp teste
+- Removendo todos os "transition: 0.5s ease-in-out;" desnecessarios do css, ganho de performance muito grande.
+
+- Icones dos "cards" criados
+
+- Foram criados todos os cards e colocado os devidos conteudos
