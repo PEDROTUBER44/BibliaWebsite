@@ -1,0 +1,31 @@
+#logosection {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+#logosection:hover {
+    transition: 0.8s;
+    opacity: 0.7;
+}
+
+#logosection div#logo {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+#logosection div#logo div#icon {
+    width: 40px;
+    height: 40px;
+}
+
+#logosection div#logo div#icon img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-family: 'Poppins-Semibold', Arial;
+    color: var(--text-color);
+}

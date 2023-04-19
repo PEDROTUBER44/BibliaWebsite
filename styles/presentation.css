@@ -1,0 +1,22 @@
+div#presentation {
+    width: 100%;
+    height: 500px;
+    background-color: var(--primary-color);
+}
+
+div#presentation div#textoftop {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: initial;
+}
+
+div#presentation div#textofbottom {
+    width: 100%;
+    height: 50%;
+}
+
+div#presentation div#textoftop h1 {
+    margin-top: 80px;
+    margin-left: 80px;
+}

@@ -1,5 +1,9 @@
 :root {
-    --primary-background-color-darkmode: #161616;
+    --primary-color: #f7f7f7;
+    --secundary-color: #d8d8d8;
+    --headertop-bottom-color: rgba(80, 80, 80, 0.125);
+    --text-color: #000000;
+    /*
     --secundary-background-color-darkmode: #2e2e2e;
     --primary-backgroud-color-whitemode: #d5d5d5;
     --primary-text-color-darkmode: #ffffff;
@@ -7,6 +11,14 @@
     --headertop-color-darkmode: rgba(17, 25, 40, 0.75);
     --headertop-bottom-color-darkmode: rgba(255, 255, 255, 0.125);
     --button-color-darkmode: #02208d;
+    */
+}
+
+.dark-mode:root {
+    --primary-color:  #242424;
+    --secundary-color: #3b3b3b;
+    --headertop-bottom-color: rgba(255, 255, 255, 0.125);
+    --text-color: #ffffff;
 }
 
 @font-face {
@@ -42,6 +54,11 @@
 }
 
 body {
-    background-color: var(--primary-background-color-darkmode);
+    background-color: var(--secundary-color);
     overflow-x: hidden;
+}
+
+h2 {
+    font-family: 'Poppins-Semibold', Arial;
+    color: var(--text-color);
 }
